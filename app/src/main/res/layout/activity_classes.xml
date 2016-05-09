@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CSE- II Year"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="46dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="A"
+                android:id="@+id/btn_2secA"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:elevation="5dp"
+                android:textSize="55sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FFFFFF"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:onClick="onClick"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="B"
+                android:id="@+id/btn_2secB"
+                android:layout_below="@+id/textView"
+                android:layout_toRightOf="@+id/btn_2secA"
+                android:layout_toEndOf="@+id/btn_2secA"
+                android:textSize="55sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:elevation="5dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="C"
+                android:id="@+id/btn_2secC"
+                android:layout_alignTop="@+id/btn_2secB"
+                android:layout_toRightOf="@+id/btn_2secB"
+                android:layout_toEndOf="@+id/btn_2secB"
+                android:textSize="55sp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:elevation="5dp"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="D"
+                android:id="@+id/btn_2secD"
+                android:textSize="55sp"
+                android:layout_alignTop="@+id/btn_2secC"
+                android:layout_toRightOf="@+id/btn_2secC"
+                android:layout_toEndOf="@+id/btn_2secC"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:textColor="#FFFFFF"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:elevation="5dp"
+                android:onClick="onClick" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="71dp"
+        android:layout_below="@+id/linearLayout"
+        android:id="@+id/linearLayout3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="CSE- III Year"
+            android:id="@+id/textView2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="2dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="A"
+                android:id="@+id/btn_3secA"
+                android:elevation="5dp"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:onClick="onClick"
+                android:layout_marginLeft="15dp" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="B"
+                android:id="@+id/btn_3secB"
+                android:elevation="5dp"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp"
+                android:layout_marginLeft="10dp"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="C"
+                android:id="@+id/btn_3secC"
+                android:elevation="5dp"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp"
+                android:layout_marginLeft="10dp"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:onClick="onClick" />
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:text="D"
+                android:id="@+id/btn_3secD"
+                android:elevation="5dp"
+                android:textColor="#FFFFFF"
+                android:textSize="55sp"
+                android:layout_marginLeft="10dp"
+                android:background="#dc039be5"
+                style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+                android:onClick="onClick" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add DataBase"
+        android:id="@+id/btn_addDB"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick" />
+
+</RelativeLayout>
